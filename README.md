@@ -32,12 +32,6 @@ Supports the following:
 
 * Markdown
 
-## Versioning
-
-This project uses Ubuntu-style calendar versioning with a short year and
-zero-padded month. A new tag will be available each time the `.editorconfig`
-file is updated.
-
 ## Getting the `.editorconfig`
 
 Clone latest: `git clone https://github.com/moonjellydigital/web-editorconfig.git`
@@ -48,7 +42,14 @@ Download latest `.editorconfig` file: `wget https://raw.githubusercontent.com/mo
 
 ## Usage
 
-Once you've obtained the file by your preferred method, add it to your project's directory.
+Once you've obtained the file by your preferred method, add it to your 
+project's directory. 
+
+## Versioning
+
+This project uses Ubuntu-style calendar versioning with a short year and
+zero-padded month. A new tag will be available each time the `.editorconfig`
+file is updated.
 
 ## License
 

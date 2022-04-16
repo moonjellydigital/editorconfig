@@ -49,7 +49,8 @@ project's directory.
 
 This project uses Ubuntu-style calendar versioning with a short year and
 zero-padded month. A new tag will be available each time the `.editorconfig`
-file is updated.
+file is updated. This makes dependency pinning simple and convenient for
+project scaffolding scripts and other automation.
 
 ## License
 

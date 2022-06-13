@@ -18,19 +18,19 @@ indent_style = space
 indent_size = 4
 
 # Markdown
-[*.{md, mdx}]
+[*.{md,mdx}]
 trim_trailing_whitespace = false
 
 # JSON
-[*.{json, webmanifest}]
+[*.{json,webmanifest}]
 indent_size = 2
 
 # YAML
-[*.{yml, yaml}]
+[*.{yml,yaml}]
 indent_size = 2
 
 # XML and SVG
-[*.{xml, svg}]
+[*.{xml,svg}]
 indent_size = 2
 
 # Bash
@@ -42,21 +42,21 @@ end_of_line = lf
 indent_style = tab
 
 # HTML
-[*.{html, htm}]
+[*.{html,htm}]
 indent_size = 2
 
 # CSS
-[*.{css, scss, sass, less, pcss}]
+[*.{css,scss,sass,less,pcss}]
 indent_size = 2
 
 # JavaScript and TypeScript
-[*.{js, mjs, cjs, jsx, ts, mts, cts, tsx}]
+[*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}]
 indent_size = 2
 
 # PHP
-[*.{php, phtml, phtm}]
+[*.{php,phtml,phtm}]
 end_of_line = lf
 
 # Go
-[*.{go, mod}]
+[*.{go,mod}]
 indent_style = tab

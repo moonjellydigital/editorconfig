@@ -1,4 +1,4 @@
-# Version: 22.06
+# Version: 23.01
 # Project: https://github.com/moonjellydigital/editorconfig
 # License: MIT
 # Copyright (c) 2022 Camille Spain
@@ -16,13 +16,14 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 indent_style = space
 indent_size = 4
+end_of_line = lf
 
 # Markdown
 [*.{md,mdx}]
 trim_trailing_whitespace = false
 
 # JSON
-[*.{json,webmanifest}]
+[*.{json,jsonc,webmanifest}]
 indent_size = 2
 
 # YAML
@@ -32,10 +33,6 @@ indent_size = 2
 # XML and SVG
 [*.{xml,svg}]
 indent_size = 2
-
-# Bash
-[*.sh]
-end_of_line = lf
 
 # Makefile
 [Makefile]
@@ -52,10 +49,6 @@ indent_size = 2
 # JavaScript and TypeScript
 [*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}]
 indent_size = 2
-
-# PHP
-[*.{php,phtml,phtm}]
-end_of_line = lf
 
 # Go
 [*.{go,mod}]
